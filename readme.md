@@ -25,7 +25,7 @@ X = R => Y = 2D + (D * E / 100)
 ###Specialized 2
 ```$xslt
 A && B && !C => X = T
-Here, I computed Y using the same formula for above when X = T.
+Here, I computed Y using the same formula as above when X = T.
 
 A && !B && C => X = S
 
