@@ -47,13 +47,13 @@ $ phpunit
 #v.2.0
 ###Refactored following SOLID Principles
 
-1. [tests/AlgorithmTest.php](https://github.com/rusbal/tidtilforsikring/blob/master/tests/AlgorithmTest.php "AlgorithmTest.php (Same as v1.0)")
-2. [app/Http/Controllers/InsuranceController.php](https://github.com/rusbal/tidtilforsikring/blob/master/app/Http/Controllers/InsuranceController.php "InsuranceController.php (Same as v1.0)")
-3. [app/Ttf/Algorithm.php](https://github.com/rusbal/tidtilforsikring/blob/master/app/Ttf/Algorithm.php "Caller class: Algorithm.php")
-4. [app/Ttf/AlgorithmBase.php](https://github.com/rusbal/tidtilforsikring/blob/master/app/Ttf/AlgorithmBase.php "Abstract class: AlgorithmBase.php")
-5. [app/Ttf/AlgorithmBaseMappingR.php](https://github.com/rusbal/tidtilforsikring/blob/master/app/Ttf/AlgorithmBaseMappingR.php "Implementation: AlgorithmBaseMappingR.php")
-6. [app/Ttf/AlgorithmBaseMappingS.php](https://github.com/rusbal/tidtilforsikring/blob/master/app/Ttf/AlgorithmBaseMappingS.php "Implementation: AlgorithmBaseMappingS.php")
-7. [app/Ttf/AlgorithmBaseMappingT.php](https://github.com/rusbal/tidtilforsikring/blob/master/app/Ttf/AlgorithmBaseMappingT.php "Implementation: AlgorithmBaseMappingT.php")
-8. [app/Ttf/AlgorithmSpecializedMappingR.php](https://github.com/rusbal/tidtilforsikring/blob/master/app/Ttf/AlgorithmSpecializedMappingR.php "Implementation: AlgorithmSpecializedMappingR.php")
-9. [app/Ttf/AlgorithmSpecializedMappingS.php](https://github.com/rusbal/tidtilforsikring/blob/master/app/Ttf/AlgorithmSpecializedMappingS.php "Implementation: AlgorithmSpecializedMappingS.php")
-10. [app/Ttf/AlgorithmSpecializedMappingT.php](https://github.com/rusbal/tidtilforsikring/blob/master/app/Ttf/AlgorithmSpecializedMappingT.php "Implementation: AlgorithmSpecializedMappingT.php")
+1. [AlgorithmTest.php (Same as v1.0)](https://github.com/rusbal/tidtilforsikring/blob/master/tests/AlgorithmTest.php "tests/AlgorithmTest.php")
+2. [InsuranceController.php (Same as v1.0)](https://github.com/rusbal/tidtilforsikring/blob/master/app/Http/Controllers/InsuranceController.php "app/Http/Controllers/InsuranceController.php")
+3. [Caller class: Algorithm.php](https://github.com/rusbal/tidtilforsikring/blob/master/app/Ttf/Algorithm.php "app/Ttf/Algorithm.php")
+4. [Abstract class: AlgorithmBase.php](https://github.com/rusbal/tidtilforsikring/blob/master/app/Ttf/AlgorithmBase.php "app/Ttf/AlgorithmBase.php")
+5. [Implementation: AlgorithmBaseMappingR.php](https://github.com/rusbal/tidtilforsikring/blob/master/app/Ttf/AlgorithmBaseMappingR.php "app/Ttf/AlgorithmBaseMappingR.php")
+6. [Implementation: AlgorithmBaseMappingS.php](https://github.com/rusbal/tidtilforsikring/blob/master/app/Ttf/AlgorithmBaseMappingS.php "app/Ttf/AlgorithmBaseMappingS.php")
+7. [Implementation: AlgorithmBaseMappingT.php](https://github.com/rusbal/tidtilforsikring/blob/master/app/Ttf/AlgorithmBaseMappingT.php "app/Ttf/AlgorithmBaseMappingT.php")
+8. [Implementation: AlgorithmSpecializedMappingR.php](https://github.com/rusbal/tidtilforsikring/blob/master/app/Ttf/AlgorithmSpecializedMappingR.php "app/Ttf/AlgorithmSpecializedMappingR.php")
+9. [Implementation: AlgorithmSpecializedMappingS.php](https://github.com/rusbal/tidtilforsikring/blob/master/app/Ttf/AlgorithmSpecializedMappingS.php "app/Ttf/AlgorithmSpecializedMappingS.php")
+10. [Implementation: AlgorithmSpecializedMappingT.php](https://github.com/rusbal/tidtilforsikring/blob/master/app/Ttf/AlgorithmSpecializedMappingT.php "app/Ttf/AlgorithmSpecializedMappingT.php")
