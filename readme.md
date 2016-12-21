@@ -47,8 +47,8 @@ $ phpunit
 #v.2.0
 ###Refactored following SOLID Principles
 
-1. [tests/AlgorithmTest.php](https://github.com/rusbal/tidtilforsikring/blob/master/tests/AlgorithmTest.php "AlgorithmTest.php")
-2. [app/Http/Controllers/InsuranceController.php](https://github.com/rusbal/tidtilforsikring/blob/master/app/Http/Controllers/InsuranceController.php "InsuranceController.php")
+1. [tests/AlgorithmTest.php](https://github.com/rusbal/tidtilforsikring/blob/master/tests/AlgorithmTest.php "AlgorithmTest.php (Same as v1.0)")
+2. [app/Http/Controllers/InsuranceController.php](https://github.com/rusbal/tidtilforsikring/blob/master/app/Http/Controllers/InsuranceController.php "InsuranceController.php (Same as v1.0)")
 3. [app/Ttf/Algorithm.php](https://github.com/rusbal/tidtilforsikring/blob/master/app/Ttf/Algorithm.php "Caller class: Algorithm.php")
 4. [app/Ttf/AlgorithmBase.php](https://github.com/rusbal/tidtilforsikring/blob/master/app/Ttf/AlgorithmBase.php "Abstract class: AlgorithmBase.php")
 5. [app/Ttf/AlgorithmBaseMappingR.php](https://github.com/rusbal/tidtilforsikring/blob/master/app/Ttf/AlgorithmBaseMappingR.php "Implementation: AlgorithmBaseMappingR.php")
