@@ -58,24 +58,12 @@ class Algorithm
      */
     private function isValidParams()
     {
-        $isValid = false;
-
         foreach ($this->params as $key => $value) {
             if (in_array($key, ['a', 'b', 'c', 'specialized'])) {
-                /**
-                 * Must be boolean.
-                 */
-                $value = $value !== 1 ?: true;
-                $value = $value !== 0 ?: false;
-                $isValid = is_bool($value);
-
+                $isValid = is_bool($value) || $value === 1 || $value === 0;
             } else {
-                /**
-                 * Must be numeric.
-                 */
                 $isValid = is_numeric($value);
             }
-
             if (!$isValid) return false;
         }
 
