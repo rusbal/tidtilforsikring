@@ -12,6 +12,6 @@
 */
 
 Route::get('/', function () {
-    return redirect('/insurance');
+    return redirect('/insurance/?browser-test=1');
 });
 Route::resource('insurance', 'InsuranceController');

@@ -57,3 +57,29 @@ $ phpunit
 8. [Implementation: AlgorithmSpecializedMappingR.php](https://github.com/rusbal/tidtilforsikring/blob/master/app/Ttf/AlgorithmSpecializedMappingR.php "app/Ttf/AlgorithmSpecializedMappingR.php")
 9. [Implementation: AlgorithmSpecializedMappingS.php](https://github.com/rusbal/tidtilforsikring/blob/master/app/Ttf/AlgorithmSpecializedMappingS.php "app/Ttf/AlgorithmSpecializedMappingS.php")
 10. [Implementation: AlgorithmSpecializedMappingT.php](https://github.com/rusbal/tidtilforsikring/blob/master/app/Ttf/AlgorithmSpecializedMappingT.php "app/Ttf/AlgorithmSpecializedMappingT.php")
+
+##Test using browser
+1. Run ```$ php artisan serve```
+2. Open http://localhost:8000/
+
+##Invalid input
+![Alt](https://github.com/rusbal/tidtilforsikring/blob/master/TTF-Invalid.png?raw=true "Test result")
+
+##(base) A && B && !C => X = S
+![Alt](https://github.com/rusbal/tidtilforsikring/blob/master/TTF-Base-S.png?raw=true "Test result")
+
+##(base) A && B && C => X = R
+![Alt](https://github.com/rusbal/tidtilforsikring/blob/master/TTF-Base-R.png?raw=true "Test result")
+
+##(base) !A && B && C => X = T
+![Alt](https://github.com/rusbal/tidtilforsikring/blob/master/TTF-Base-T.png?raw=true "Test result")
+
+##(specialized 1) X = R => Y = 2D + (D * E / 100)
+![Alt](https://github.com/rusbal/tidtilforsikring/blob/master/TTF-Specialized-R.png?raw=true "Test result")
+
+##(specialized 2) A && B && !C => X = T
+![Alt](https://github.com/rusbal/tidtilforsikring/blob/master/TTF-Specialized-T.png?raw=true "Test result")
+
+##(specialized 2) A && !B && C => X = S
+X = S => Y = F + D + (D * E / 100)
+![Alt](https://github.com/rusbal/tidtilforsikring/blob/master/TTF-Specialized-S.png?raw=true "Test result")
