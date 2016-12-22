@@ -32,7 +32,7 @@ A && !B && C => X = S
 X = S => Y = F + D + (D * E / 100)
 ```
 
-This solution is based on Laravel.  My pertinent code is located in 3 files:
+This solution is based on Laravel.
 
 1. [tests/AlgorithmTest.php](https://github.com/rusbal/tidtilforsikring/blob/master/tests/AlgorithmTest.php "AlgorithmTest.php")
 2. [app/Http/Controllers/InsuranceController.php](https://github.com/rusbal/tidtilforsikring/blob/master/app/Http/Controllers/InsuranceController.php "InsuranceController.php")
