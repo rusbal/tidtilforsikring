@@ -53,7 +53,6 @@ class Algorithm
 
     /**
      * Make sure that input parameters are the expected types.
-     * @param $params
      * @return bool
      */
     private function isValidParams()
