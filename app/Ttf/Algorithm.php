@@ -59,7 +59,7 @@ class Algorithm
     {
         foreach ($this->params as $key => $value) {
             if (in_array($key, ['a', 'b', 'c', 'specialized'])) {
-                $isValid = is_bool($value) || $value === 1 || $value === 0;
+                $isValid = is_bool($value) || (int) $value === 1 || (int) $value === 0;
             } else {
                 $isValid = is_numeric($value);
             }
